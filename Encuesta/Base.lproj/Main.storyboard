@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D113c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kmk-iq-CzX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D130a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kmk-iq-CzX">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
         <!--Login-->
@@ -34,7 +34,7 @@
                                 </state>
                                 <connections>
                                     <action selector="irEncuesta:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tn3-Uy-3pf"/>
-                                    <segue destination="n4Y-23-rZ1" kind="push" id="vGt-MD-hRh"/>
+                                    <segue destination="n4Y-23-rZ1" kind="show" id="vGt-MD-hRh"/>
                                 </connections>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Bene.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Lh7-pM-wyf">
@@ -58,12 +58,12 @@
         <scene sceneID="sxt-Xf-N9a">
             <objects>
                 <tableViewController id="n4Y-23-rZ1" customClass="TableViewController" customModule="Encuesta" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="42" sectionHeaderHeight="22" sectionFooterHeight="22" id="Zif-2F-Kia">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" sectionHeaderHeight="22" sectionFooterHeight="22" id="Zif-2F-Kia">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="42" id="hRR-pw-HXO">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="120" id="hRR-pw-HXO">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hRR-pw-HXO" id="n4E-IN-Sal">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -81,37 +81,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xkd-PP-WiR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1774" y="348"/>
-        </scene>
-        <!--Maternidad-->
-        <scene sceneID="3DQ-50-Xg1">
-            <objects>
-                <viewController title="Maternidad" id="f0T-jO-7rs" customClass="TablaEncuesta" customModule="Encuesta" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="kb8-ZL-u8i"/>
-                        <viewControllerLayoutGuide type="bottom" id="Fwp-lS-fqm"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="wOk-U1-89N">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="E0h-9l-HkO">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="f0T-jO-7rs" id="tGz-Zu-YBi"/>
-                                    <outlet property="delegate" destination="f0T-jO-7rs" id="S8x-OE-sGK"/>
-                                </connections>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="TableView" destination="E0h-9l-HkO" id="gNh-jj-LC5"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tK4-Ha-ltG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1798" y="1107"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dnh-iK-wYq">

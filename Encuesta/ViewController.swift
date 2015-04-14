@@ -41,10 +41,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         //numeroHabitacion.placeholder = nil
     }
     
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+    /*override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         view.endEditing(true)
-        super.touchesBegan(touches, withEvent: event)
-    }
+        super.touchesBegan(touches as Set<NSObject>, withEvent: event)
+    }*/
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         self.numeroHabitacion.resignFirstResponder()

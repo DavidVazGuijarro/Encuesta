@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F38ACED2-1218-4FFA-B21E-BC2DB9A7AF13</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>https://github.com/Alamofire/Alamofire.git</string>
+		<key>C573EF73BD51456E483BAFF2CFADD78DF1900801</key>
+		<string>https://github.com/Gilbill/Encuesta.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Encuesta.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>../..Alamofire</string>
+		<key>C573EF73BD51456E483BAFF2CFADD78DF1900801</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Gilbill/Encuesta.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C573EF73BD51456E483BAFF2CFADD78DF1900801</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C573EF73BD51456E483BAFF2CFADD78DF1900801</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Encuesta</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67620B5EFA902936DF04070AF595B76AB0333747</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EncuestaAlamofire</string>
+		</dict>
+	</array>
+</dict>
+</plist>

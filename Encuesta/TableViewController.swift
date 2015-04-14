@@ -16,6 +16,23 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let url = NSURL(string: "http://private-00b6b-hugo4.apiary-mock.com/preguntas/20")!
+        let request = NSMutableURLRequest(URL: url)
+        
+        let session = NSURLSession.sharedSession()
+        let task = session.dataTaskWithRequest(request) { (data: NSData!, response: NSURLResponse!, error: NSError!) in
+            
+            if error != nil {
+                // Handle error...
+                return
+            }
+            
+           
+            println(NSString(data: data, encoding: NSUTF8StringEncoding))
+
+    }
+        
+        task.resume()
         
 
         // Uncomment the following line to preserve selection between presentations
@@ -46,7 +63,7 @@ class TableViewController: UITableViewController {
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! UITableViewCell
 
         cell.textLabel?.text = a[indexPath.row]
         
